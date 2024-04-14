@@ -19,12 +19,16 @@ if ('0' === 0){ // returns false - compare the data type (number vs string)
 
 
 
-const minimunAge = 18;
+const minimumAge = 18;
 const studentAge = 16;
 
-if (studentAge >= minimunAge){
+if (studentAge >= minimumAge){
     console.log("doesn't need an authorization");
 }
 else{
     console.log("needs an authorization");
 }
+
+// ternary operator
+
+studentAge >= minimumAge ? console.log("doesn't need an authorization") : console.log("needs an authorization");

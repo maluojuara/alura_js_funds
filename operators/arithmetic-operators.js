@@ -11,3 +11,5 @@ if (finalGrade >= 7){
 }
 
 console.log("The final grade is:", finalGrade.toFixed(2));
+
+
