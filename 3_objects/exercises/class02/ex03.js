@@ -21,7 +21,7 @@ function showPeopleList(people) {
 
 // b) Add a new person to the "people" list using the push method. Ensure that the new person has distinct information from the existing people in the list.
 
-people.push({firstName: 'Guilherme', age: 2, city: 'Rio de Janeiro'});
+people.push({firstName: 'Guilherme', age: 2, city: 'Aracaju'});
 
 
 // c) Call the "showPeopleList" function to verify if the information, including the new person, is displayed correctly in the console.
@@ -29,4 +29,13 @@ people.push({firstName: 'Guilherme', age: 2, city: 'Rio de Janeiro'});
 showPeopleList(people);
 
 // d) Create a function called "filterByCity" that accepts the "people" list and a string "city" as parameters. The function should return a new list containing only the people who reside in the provided city. Call the "filterByCity" function passing the "people" list and a fictional city as arguments, and print the result obtained to the console.
+
+function filterByCity(people, city) {
+    return people.filter((person) => person.city === city);
+}
+
+console.log('-------------------------------------')
+const city = 'Aracaju';
+console.log("People who live in " + city);
+console.log(filterByCity(people, city));
 
