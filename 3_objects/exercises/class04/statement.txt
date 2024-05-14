@@ -1,0 +1,47 @@
+1 - Create a file named data.json containing fictional information in JSON format. The file can represent, for example, product data, user data, or any other information you wish.
+
+Create a file named useRequire.js and, inside it, use the require() function to import the content of the data.json file.
+
+Print the imported content to the console using the console.log() function.
+
+Access different properties of the imported object and print them to the console to verify data access.
+
+------------------------------------------------------------------------------------------------------------------
+
+3 - Create a JavaScript object representing information about a product. The object should contain at least the following properties:
+
+id (number): Product identifier.
+name (string): Product name.
+price (number): Product price.
+
+------------------------------------------------------------------------------------------------------------------
+
+4 - Create a file named animals.json containing fictional information in JSON format. The file can represent data about animals, including at least three elements in the array.
+
+Create a file named manipulationJson.js. Inside this file, perform the following operations:
+
+a) Read the content of the animals.json file.
+
+c) Add a new animal to the array of animals. The new animal should have a unique id, name, type, and habitat.
+
+d) Modify the habitat of an existing animal in the array of animals.
+
+e) Remove an animal from the array of animals.
+
+f) Convert the modified object to a JSON string using JSON.stringify().
+
+g) Print to the console the resulting JavaScript object from the operations. 
+
+------------------------------------------------------------------------------------------------------------------
+
+5 - Create a JavaScript object representing information about a person. The object should contain the following properties:
+
+id (number): identifier of the person.
+nome (string): person's name.
+idade (number): person's age.
+
+Create a function that takes a JavaScript object and returns a new object. Use this function to make a copy of the original person object.
+
+Modify the copy of the object obtained through the function, adding or changing at least one property.
+
+Print both objects (the original and the modified one) to the console to verify that the changes made to the modified object did not affect the original object
